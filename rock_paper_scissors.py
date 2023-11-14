@@ -7,13 +7,13 @@ def play_game():
     user = input ("choose 'r' for rock 'p' for paper 's' for scissors \n")
     pc = random.choice(['r' , 'p', 's' ])
 
-    print( "your choice is :" + user )
-    print(" pc choice is :" + pc)
+    print( "your choice is : " + user )
+    print("pc choice is : " + pc)
 
     if (user == pc) :
-        print (" it`s a tie ")
+        print ("it`s a tie ")
     elif (user == "r" and pc == "s") or (user == "s" and pc == "p") or (user == "p" and pc == "r") :
-        print(" You win ! ")
+        print("You win ! ")
     else :
         print ("You lose! ")    
 
