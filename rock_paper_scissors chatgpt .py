@@ -7,7 +7,7 @@ def get_user_choice():
         print("Invalid choice. Please choose Rock, Paper, or Scissors:")
         user_choice = input().lower()
     return user_choice
-
+#useless line
 def get_computer_choice():
     return random.choice(['rock', 'paper', 'scissors'])
 
